@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+<!--HERE IS THE LINK TO THE PRETEXT GUIDE: https://pretextbook.org/doc/guide/html/guide-toc.html -->
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>
+        \newcommand{\foo}{b^{ar}}
+        \newcommand{\D}{\displaystyle}
+    </macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+  <article xml:id="session6wks" label="6001">
+    <title>MATH 142 Hands-On, Grades Up</title>
+    <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+    </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+<worksheet>
+    <title> Session #6 (Sections 2.6 and 3.1)</title><!-- SECTION 1-->
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. 
+      For additional practice problems and explanations, refer to the Math 142 textbook which is free and can be downloaded as a PDF 
+      at <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa"> Texas A&amp;M The OAKTrust Digital Repository </url>.
+      <!--'&' and '<' are exceptional characters and are instead authored as &lt; and &amp;. See 4.1.4.2-->
+    </p>
+    
+    <paragraphs>
+        <title>Getting Warmed Up and in the Right Mindset</title>
+    <exercise> <!-- controlling workspace length is the best way to force page breaks on a worksheet -->
+      <introduction>
+        <p>
+        Follow the steps below to find <m>\D \frac{dy}{dx}</m> for <m>\D x^{2}-y^{2}=1</m> using implicit differentiation.
+        </p>
+      </introduction>
+        <task workspace="1in">
+            <statement>
+                <p>
+                  Step 1: Take the derivative of both sides of the equation with respect to <m>x</m>.     
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                  Step 2: Move all the <m>\D \frac{dy}{dx}</m> terms to one side of the equation and the remaining terms to the other side of the equation.       
+                </p>
+            </statement>
+        </task>
+        <task workspace="3in">
+            <statement>
+                <p>
+                  Step 3: Solve for <m>\D \frac{dy}{dx}</m>.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+    <exercise>
+      <introduction>
+        <p>
+           Use the graph below to answer parts (a) through (d), writing <em>increasing</em> or <em>decreasing</em> in the blank.  
+        </p>
+        <image source="MATH142_HOGU_Session6_Fig1.png" width="70%">
+          <shortdescription> Graph of a function with five highlighted points. Refer to image description for more detail.</shortdescription>
+          <description>
+            <p>
+              Starting from the left, the graph is increasing, passing through a point labeled <m>A</m> and reaches a point <m>B</m>.
+              The graph then decreases, passes through point <m>C</m> and reaches point <m>D</m>. 
+              The graph then increases, passes through point <m>E</m>, and continues increasing out of the frame on the top.
+            </p>
+          </description>
+        </image>
+      </introduction>
+      <task>
+        <statement>
+            <p>
+               Between points D and E, the graph is <fillin characters="15" />.
+            </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+            <p>
+               Between points A and B, the graph is <fillin characters="15" />.
+            </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+            <p>
+               Between points C and D, the graph is <fillin characters="15" />.
+            </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+            <p>
+               Between points B and C, the graph is <fillin characters="15" />.
+            </p>
+        </statement>
+      </task>
+    </exercise>
+    
+    </paragraphs>
+    
+    <paragraphs>
+        <title>Let Us Get Our Hands On</title>
+    <exercise workspace="1.5in" number="1"><!-- must restart numbering manually for each section -->
+      <statement><!-- #1 -->
+        <p>
+          Use implicit differentiation to find <m>\D \frac{dy}{dx}</m> for the curve <m>\D x^{3}+y^{2}=3x-y</m>.
+        </p>
+      </statement>
+    </exercise> 
+
+    <exercise workspace="1.5in" number="2">
+      <statement><!-- #2 -->
+        <p>
+          Find the equation of the line that is tangent to the curve <m>\D (x-1)y^{2}=x+1</m>, at <m>(1.25, 3)</m>.
+        </p>
+      </statement>
+    </exercise>
+  
+  
+    <exercise workspace="2in" number="3">
+      <introduction>
+        <p>
+           A cubed shaped block of ice is melting such that its volume decreases at a rate of <m>2</m> cubic centimeters per minute. 
+           How fast is the length of one side of the cube decreasing when the side length is <m>5</m> centimeters? 
+        </p>
+      </introduction>
+      <task workspace="1in">
+        <statement>
+            <p>
+               Step 1 (Draw a Picture): Sketch a picture that represents the problem and label any variables of interest.
+            </p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+            <p>
+               Step 2 (State Given &amp; To Be Determined Information): Identify (a) the given (or known) values for any variable or rate of change, 
+               (b) the rates of change that need to be determined and at the specific values at which the rates need to be determined. 
+               Be sure to include all units.
+            </p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+            <p>
+               Step 3 (Formulate Equations): Look at the information collected in steps 1 and 2 to find a formula that represents the relationships
+               between the rates and the variables. <em>Hint: For this problem find the formula that relates the volume of a cube to the length of its side.</em>
+            </p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+            <p>
+               Step 4 (Take Derivative): Use implicit differentiation to take a derivative of the equation in step 3 with respect to time, <m>t</m>.
+            </p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+            <p>
+               Step 5 (Substitute): Substitute all known values (see step 2) into the equation found in step 4, and then solve for the unknown rate of change.
+            </p>
+        </statement>
+      </task>
+      
+    </exercise> 
+
+    <exercise workspace="2in" number="4">
+      <statement><!-- #4 -->
+        <p> 
+         The length of a rectangle is increasing at a rate of <m>4</m> meters per second, and the width is increasing at a rate of <m>2</m> meters per second.
+         How fast is the area of the rectangle increasing when the length is <m>10</m> meters and the width is <m>6</m> meters? 
+         <em>Hint: Follow the same steps as the previous problem! </em> 
+        </p>
+      </statement>
+    </exercise> 
+  
+    <exercise workspace="2in" number="5">
+      <statement><!-- #5 -->
+        <p>
+         A company's profit, in dollars, is given by the equation <m>\D P(x)=100x-0.5x^{2}</m>, where <m>x</m> is the number of units sold.
+         If the sales are increasing at a rate of <m>10</m> units per day, how fast does the profit change when <m>50</m> units are sold?
+        </p>
+      </statement>
+    </exercise> 
+  
+  
+    <exercise number="6">
+      <statement>
+        <p>
+            
+        </p>
+      </statement>
+    </exercise> 
+
+    <exercise number="7">
+      <statement>
+        <p>
+            
+        </p>
+      </statement>
+    </exercise>  
+
+    <exercise number="8">
+      <statement><!-- #8 -->
+        <p> 
+          
+        </p>
+      </statement>
+    </exercise> 
+
+  
+    </paragraphs>
+  
+    <paragraphs>
+        <title>Now Grades Go Up</title>
+      </paragraphs>
+ <exercise number="1">
+  <statement><!-- #1 -->
+    <p>
+        <ol marker="(a)">
+          <li> <p> </p> </li>
+          <li> <p> </p> </li>
+          <li> <p> </p> </li>
+          <li> <p> </p> </li>
+        </ol>
+    </p>
+  </statement>
+ </exercise>
+ <exercise number="2">
+  <statement><!-- #2 -->
+    <p>
+        <ol marker="(a)">
+          <li> <p> </p> </li>
+          <li> <p> </p> </li>
+          <li> <p> </p></li>
+          <li> <p> </p> </li>
+        </ol>
+    </p>
+  </statement>
+ </exercise>
+
+</worksheet>
+
+  </article>
+
+</pretext>
