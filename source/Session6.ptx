@@ -194,11 +194,18 @@
   
   
     <exercise number="6">
-      <statement>
+      <introduction>
         <p>
-            
+          The following are steps to finding increasing and decreasing intervals.
+          <ol>
+            <li>
+              <p>
+                 Determine the domain of \(f\).
+              </p>
+            </li>
+          </ol>
         </p>
-      </statement>
+      </introduction>
     </exercise> 
 
     <exercise number="7">
