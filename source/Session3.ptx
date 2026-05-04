@@ -26,8 +26,8 @@
     
       <paragraphs>
         <title>Getting Warmed Up and in the Right Mindset</title>
-    <exercise workspace="0.4in">
-      <statement><!-- #1 -->
+    <exercise workspace="0.4in"><!-- #1 -->
+      <statement>
         <p>
           State the formula for finding the average rate of change of a function <m>f</m> on the interval <m>[a,b]</m>.
         </p>
@@ -36,8 +36,9 @@
         </p>
       </statement>
       </exercise>
-      <exercise workspace="0.5in">
-      <statement><!-- #2 -->
+
+      <exercise workspace="0.5in"><!-- #2 -->
+      <statement>
         <p>
          Find the average rate of change of <m>\displaystyle f(x)=x^{2}+5x</m> on the interval <m>\displaystyle [2,3]</m>.
          Draw the line that represents this average rate of change on the graph. 
@@ -52,15 +53,17 @@
         </image>
       </statement>
     </exercise>
-    <exercise workspace="0.5in">
-      <statement><!-- #3 -->
+
+    <exercise workspace="0.5in"><!-- #3 -->
+      <statement>
         <p>
         State the formula for the difference quotient of a function <m>f</m> at <m>x = a</m>.
         </p>
       </statement>
     </exercise>
-    <exercise workspace="1in">
-      <statement><!-- #4 -->
+
+    <exercise workspace="1in"><!-- #4 -->
+      <statement>
         <p>
          Compute the difference quotient of <m>f(x) = \sqrt{x}</m> at <m>x = 4</m> with <m>h = 0.1</m>.
          (Round your answer to four decimal places, if needed).
@@ -69,10 +72,10 @@
     </exercise>
    </paragraphs> 
     
-      <paragraphs>
+    <paragraphs>
         <title>Let Us Get Our Hands On</title>
-    <exercise number="1">
-      <introduction><!-- #1 -->
+    <exercise number="1"><!-- #1 -->
+      <introduction>
         <p>
           The cost of a company to produce <m>x</m> products is given by <m>C(x) = 0.04x^{2}+130</m> dollars.
         </p>
@@ -111,8 +114,8 @@
               </p>
             </task>
     </exercise> 
-    <exercise number="2">
-      <introduction><!-- #2 -->
+    <exercise number="2"><!-- #2 -->
+      <introduction>
         <p>
           Suppose we want to find the instantaneous rate of change of <m>f(x)=x^{2}+5x</m> at <m>x=3</m>:
         </p>
@@ -160,15 +163,15 @@
     </exercise>
   
   
-    <exercise workspace="1in" number="3">
-      <statement><!-- #3 -->
+    <exercise workspace="1in" number="3"><!-- #3 -->
+      <statement>
         <p> In #2 we found that the instantaneous rate of change of <m>f</m> at <m>x = 3</m> is <m>m=11</m>.
           Use this to find the equation of the line tangent to <m>f(x)</m> at <m>x=3</m>.
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="6in" number="4">
-      <statement><!-- #4 -->
+    <exercise workspace="6in" number="4"><!-- #4 -->
+      <statement>
         <p> Find the instantaneous rate of change of <m>\displaystyle f(x)=2\sqrt{x}</m> at <m>x=4</m>.
         <em>Hint: Follow the same steps as in #2.
         Multiply by the conjugate in step iii and simplify.
@@ -179,8 +182,8 @@
     </exercise> 
   
   
-    <exercise workspace="1in" number="5">
-      <statement><!-- #5 -->
+    <exercise workspace="1in" number="5"><!-- #5 -->
+      <statement>
         <p> Find the equation of the line tangent to <m>f(x) = 2\sqrt{x}</m> at <m>x=4</m>.
         </p>
       </statement>
@@ -204,8 +207,9 @@
             </p>
           </description>
     </image>
-    <exercise number="6">
-      <introduction><!-- #6 -->
+
+    <exercise number="6"><!-- #6 -->
+      <introduction>
         <p> 
           Find the following limits.
         </p>
@@ -247,16 +251,17 @@
             </task>
     </exercise> 
 
-    <exercise workspace="1.5in" number="7">
-      <statement><!-- #7 -->
+    <exercise workspace="1.5in" number="7"><!-- #7 -->
+      <statement>
         <p>
           Find all <m>x-</m>values where <m>p(x)</m> is discontinuous.
           For each <m>x-</m>value, state the condition (I, II, or III) within the definition of continuity that fails first.
         </p>
       </statement>
     </exercise> 
-    <exercise number="8">
-      <introduction><!-- #8 -->
+
+    <exercise number="8"><!-- #8 -->
+      <introduction>
         <p> 
          Estimate the following limits numerically by building a table with at least 3 <m>x</m>-values approaching the given <m>x</m>-value.
         If the limit does not exist, state so and and use limit notation to describe any infinite behavior.
@@ -280,125 +285,131 @@
   
     <paragraphs>
         <title>Now Grades Go Up</title>
- <exercise workspace ="1in" number="1">
-  <statement><!-- #1 -->
-    <p>
-      Determine whether <m>\displaystyle{\lim_{x\rightarrow -1} \frac{1}{x^{2}-1}}</m> exists.
-      If it does exist, find the limit.
-      If it does not exist, describe the behavior of the function at <m>x=-1</m>.
-        <ol marker="(a)">
-          <li> <p>The limit exists, and it equals <m>0</m>.</p> </li>
-          <li> <p> The limit exists, and it equals <m>\displaystyle -\frac{1}{2}</m>.</p> </li>
-          <li> <p>The limit exists, and it equals <m>1</m>. </p> </li>
-          <li> <p> The limit does not exist, but <m>\displaystyle{\lim_{x \rightarrow -1^-} f(x) \rightarrow \infty}</m> and
-             <m>\displaystyle{\lim_{x \rightarrow -1^+} f(x) \rightarrow -\infty}</m>.</p> </li>
-          <li> <p> The limit does not exist, but <m>\displaystyle{\lim_{x \rightarrow -1^-} f(x) \rightarrow -\infty}</m> and
-             <m>\displaystyle{\lim_{x \rightarrow -1^+} f(x) \rightarrow \infty}</m>.</p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise workspace ="1in" number="2">
-  <statement><!-- #2 -->
-    <p>
-      Find <m>\displaystyle \lim_{x\rightarrow 5}\frac{x^{2}-x-20}{x^{2}-25}</m>.
-        <ol marker="(a)">
-          <li> <p> <m>0</m> </p> </li>
-          <li> <p> <m>1</m> </p> </li>
-          <li> <p> DNE </p> </li>
-          <li> <p> <m>\displaystyle \frac{4}{5}</m> </p> </li>
-          <li> <p> <m>\displaystyle \frac{9}{10}</m> </p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise workspace ="1in" number="3">
-  <statement><!-- #3 -->
-    <p>
-      Find the horizontal asymptotes for <m>\displaystyle f(x)=\frac{6e^{-x}+8e^{-3x}+6}{7e^{-2x}-2+2e^{-3x}}</m>
-        <ol marker="(a)">
-          <li> <p> <m>f(x)</m> does not have any horizontal asymptotes. </p> </li>
-          <li> <p> <m>f(x)</m> has two horizontal asymptotes at <m>y=-3</m> and <m>y=4</m>. </p> </li>
-          <li> <p> <m>f(x)</m> has only one horizontal asymptote at <m>y=-3</m>. </p> </li>
-          <li> <p> <m>f(x)</m> has only one horizontal asymptote at <m>y=0</m>. </p> </li>
-          <li> <p> <m>f(x)</m> has only one horizontal asymptote at <m>y=4</m>. </p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise workspace ="1in" number="4">
-  <statement><!-- #4 -->
-    <p>
-      Find the intervals where <m>f(x)</m> is continuous.
-      <md>
-        f(x)= \left\{ \begin{array}{lc}\displaystyle{\frac{x^{2}-9}{x-3}} &#x26; x &#x3C; 4\\ &#x26; \\ \displaystyle{\sqrt{10x+9}} &#x26; x > 4 \\\end{array} \right.
-      </md>
-        <ol marker="(a)">
-          <li> <p> <m>\displaystyle (-\infty, 3) \cup (3,\infty)</m> </p> </li>
-          <li> <p> <m>\displaystyle (-\infty, 3) \cup (3, 4) \cup (4,\infty)</m> </p> </li>
-          <li> <p> <m>\displaystyle (-\infty, 4) \cup (4,\infty)</m> </p> </li>
-          <li> <p> <m>\displaystyle (-\infty, \infty)</m> </p> </li>
-          <li> <p> <m>\displaystyle (-\infty, -\frac{9}{10}) \cup (-\frac{9}{10}, 3) \cup (3,4) \cup (4,\infty)</m> </p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise workspace ="1in" number="5">
-  <statement><!-- #5 -->
-    <p>
-      Suppose for some function <m>g(x)</m>, you know <m>\displaystyle{\lim_{x\rightarrow 8^-} g(x) \rightarrow -\infty}</m>.
-      What can you conclude happens at <m>x=8</m>?
-        <ol marker="(a)">
-          <li> <p> <m>g(x)</m> has a vertical asymptote at <m>x=8</m>.</p> </li>
-          <li> <p> <m>g(x)</m> has a horizontal asymptote at <m>x=8</m>. </p> </li>
-          <li> <p> <m>g(x)</m> is continuous at <m>x=8</m>. </p> </li>
-          <li> <p> <m>g(x)</m> has a hole at <m>x=8</m>. </p> </li>
-          <li> <p> <m>g(8) \rightarrow \infty</m> </p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise workspace ="1in" number="6">
-  <statement><!-- #6 -->
-    <p>
-      Given <m>\displaystyle p(x)=\frac{7x(x+8)(x+1)^{2}}{5x^{2}(x+1)(x+8)^{2}}</m>, find <em>all</em> vertical asymptotes for <m>p(x)</m>.
-        <ol marker="(a)">
-          <li> <p> <m>x=0</m>, <m>x=-1</m>, and <m>x=-8</m>  </p> </li>
-          <li> <p> <m>x=-1</m> </p> </li>
-          <li> <p> <m>x=-1</m> and <m>x=-8</m> </p> </li>
-          <li> <p> <m>\displaystyle y=\frac{7}{5}</m>. </p> </li>
-          <li> <p> <m>x=0</m>, <m>x=-8</m> </p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise workspace ="1in" number="7">
-  <statement><!-- #7 -->
-    <p>
-      Given <m>\displaystyle p(x)=\frac{7x(x+8)(x+1)^{2}}{5x^{2}(x+1)(x+8)^{2}}</m>, 
-      find the <m>x-</m>values where <em>all holes</em> occur for <m>p(x)</m>.
-        <ol marker="(a)">
-          <li> <p> <m>\displaystyle x=-1</m> and <m>\displaystyle x=-8</m> </p> </li>
-          <li> <p> <m>\displaystyle x=0</m>, <m>\displaystyle x=-1</m>, and <m>\displaystyle x=-8</m> </p> </li>
-          <li> <p> <m>\displaystyle x=-1</m> </p> </li>
-          <li> <p> <m>\displaystyle x=0</m> and <m>\displaystyle x=-8</m></p> </li>
-          <li> <p> <m>p(x)</m> does not have any holes. </p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise number="8">
-  <introduction><!-- #8 -->
-    <p>
-      Determine whether each statement is true or false.
-    </p>
-  </introduction>
-          <task> <p> True/False: If <m>g(x)</m> is a rational function with <m>\displaystyle\lim_{x \to \infty}g(x) = -\frac{1}{2}</m>, 
-            then it must be that <m>\displaystyle\lim_{x \to -\infty}g(x) = -\frac{1}{2}</m>. </p> </task>
-          <task> <p> True/False: If <m>h(x)</m> is a rational function with <m>\displaystyle\lim_{x \to \infty}h(x) \to -\infty</m>, 
-            then it must also be that <m>\displaystyle\lim_{x \to -\infty}h(x) \to -\infty</m>.</p> </task>
-          <task> <p> True/False: If <m>\displaystyle \lim_{x \to 4}f(x) = -7</m>, then it must also be that <m>f(4) = -7</m>. </p> </task>
- </exercise>
+      <exercise workspace ="1in" number="1"><!-- #1 -->
+        <statement>
+          <p>
+            Determine whether <m>\displaystyle{\lim_{x\rightarrow -1} \frac{1}{x^{2}-1}}</m> exists.
+            If it does exist, find the limit.
+            If it does not exist, describe the behavior of the function at <m>x=-1</m>.
+              <ol marker="(a)">
+                <li> <p>The limit exists, and it equals <m>0</m>.</p> </li>
+                <li> <p> The limit exists, and it equals <m>\displaystyle -\frac{1}{2}</m>.</p> </li>
+                <li> <p>The limit exists, and it equals <m>1</m>. </p> </li>
+                <li> <p> The limit does not exist, but <m>\displaystyle{\lim_{x \rightarrow -1^-} f(x) \rightarrow \infty}</m> and
+                  <m>\displaystyle{\lim_{x \rightarrow -1^+} f(x) \rightarrow -\infty}</m>.</p> </li>
+                <li> <p> The limit does not exist, but <m>\displaystyle{\lim_{x \rightarrow -1^-} f(x) \rightarrow -\infty}</m> and
+                  <m>\displaystyle{\lim_{x \rightarrow -1^+} f(x) \rightarrow \infty}</m>.</p> </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace ="1in" number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Find <m>\displaystyle \lim_{x\rightarrow 5}\frac{x^{2}-x-20}{x^{2}-25}</m>.
+              <ol marker="(a)">
+                <li> <p> <m>0</m> </p> </li>
+                <li> <p> <m>1</m> </p> </li>
+                <li> <p> DNE </p> </li>
+                <li> <p> <m>\displaystyle \frac{4}{5}</m> </p> </li>
+                <li> <p> <m>\displaystyle \frac{9}{10}</m> </p> </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise workspace ="1in" number="3"><!-- #3 -->
+        <statement>
+          <p>
+            Find the horizontal asymptotes for <m>\displaystyle f(x)=\frac{6e^{-x}+8e^{-3x}+6}{7e^{-2x}-2+2e^{-3x}}</m>
+              <ol marker="(a)">
+                <li> <p> <m>f(x)</m> does not have any horizontal asymptotes. </p> </li>
+                <li> <p> <m>f(x)</m> has two horizontal asymptotes at <m>y=-3</m> and <m>y=4</m>. </p> </li>
+                <li> <p> <m>f(x)</m> has only one horizontal asymptote at <m>y=-3</m>. </p> </li>
+                <li> <p> <m>f(x)</m> has only one horizontal asymptote at <m>y=0</m>. </p> </li>
+                <li> <p> <m>f(x)</m> has only one horizontal asymptote at <m>y=4</m>. </p> </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace ="1in" number="4"><!-- #4 -->
+        <statement>
+          <p>
+            Find the intervals where <m>f(x)</m> is continuous.
+            <md>
+              f(x)= \left\{ \begin{array}{lc}\displaystyle{\frac{x^{2}-9}{x-3}} &#x26; x &#x3C; 4\\ &#x26; \\ \displaystyle{\sqrt{10x+9}} &#x26; x > 4 \\\end{array} \right.
+            </md>
+              <ol marker="(a)">
+                <li> <p> <m>\displaystyle (-\infty, 3) \cup (3,\infty)</m> </p> </li>
+                <li> <p> <m>\displaystyle (-\infty, 3) \cup (3, 4) \cup (4,\infty)</m> </p> </li>
+                <li> <p> <m>\displaystyle (-\infty, 4) \cup (4,\infty)</m> </p> </li>
+                <li> <p> <m>\displaystyle (-\infty, \infty)</m> </p> </li>
+                <li> <p> <m>\displaystyle (-\infty, -\frac{9}{10}) \cup (-\frac{9}{10}, 3) \cup (3,4) \cup (4,\infty)</m> </p> </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace ="1in" number="5"><!-- #5 -->
+        <statement>
+          <p>
+            Suppose for some function <m>g(x)</m>, you know <m>\displaystyle{\lim_{x\rightarrow 8^-} g(x) \rightarrow -\infty}</m>.
+            What can you conclude happens at <m>x=8</m>?
+              <ol marker="(a)">
+                <li> <p> <m>g(x)</m> has a vertical asymptote at <m>x=8</m>.</p> </li>
+                <li> <p> <m>g(x)</m> has a horizontal asymptote at <m>x=8</m>. </p> </li>
+                <li> <p> <m>g(x)</m> is continuous at <m>x=8</m>. </p> </li>
+                <li> <p> <m>g(x)</m> has a hole at <m>x=8</m>. </p> </li>
+                <li> <p> <m>g(8) \rightarrow \infty</m> </p> </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace ="1in" number="6"><!-- #6 -->
+        <statement>
+          <p>
+            Given <m>\displaystyle p(x)=\frac{7x(x+8)(x+1)^{2}}{5x^{2}(x+1)(x+8)^{2}}</m>, find <em>all</em> vertical asymptotes for <m>p(x)</m>.
+              <ol marker="(a)">
+                <li> <p> <m>x=0</m>, <m>x=-1</m>, and <m>x=-8</m>  </p> </li>
+                <li> <p> <m>x=-1</m> </p> </li>
+                <li> <p> <m>x=-1</m> and <m>x=-8</m> </p> </li>
+                <li> <p> <m>\displaystyle y=\frac{7}{5}</m>. </p> </li>
+                <li> <p> <m>x=0</m>, <m>x=-8</m> </p> </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace ="1in" number="7"><!-- #7 -->
+        <statement>
+          <p>
+            Given <m>\displaystyle p(x)=\frac{7x(x+8)(x+1)^{2}}{5x^{2}(x+1)(x+8)^{2}}</m>, 
+            find the <m>x-</m>values where <em>all holes</em> occur for <m>p(x)</m>.
+              <ol marker="(a)">
+                <li> <p> <m>\displaystyle x=-1</m> and <m>\displaystyle x=-8</m> </p> </li>
+                <li> <p> <m>\displaystyle x=0</m>, <m>\displaystyle x=-1</m>, and <m>\displaystyle x=-8</m> </p> </li>
+                <li> <p> <m>\displaystyle x=-1</m> </p> </li>
+                <li> <p> <m>\displaystyle x=0</m> and <m>\displaystyle x=-8</m></p> </li>
+                <li> <p> <m>p(x)</m> does not have any holes. </p> </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise number="8"><!-- #8 -->
+        <introduction>
+          <p>
+            Determine whether each statement is true or false.
+          </p>
+        </introduction>
+                <task> <p> True/False: If <m>g(x)</m> is a rational function with <m>\displaystyle\lim_{x \to \infty}g(x) = -\frac{1}{2}</m>, 
+                  then it must be that <m>\displaystyle\lim_{x \to -\infty}g(x) = -\frac{1}{2}</m>. </p> </task>
+                <task> <p> True/False: If <m>h(x)</m> is a rational function with <m>\displaystyle\lim_{x \to \infty}h(x) \to -\infty</m>, 
+                  then it must also be that <m>\displaystyle\lim_{x \to -\infty}h(x) \to -\infty</m>.</p> </task>
+                <task> <p> True/False: If <m>\displaystyle \lim_{x \to 4}f(x) = -7</m>, then it must also be that <m>f(4) = -7</m>. </p> </task>
+      </exercise>
  </paragraphs>
 
 </worksheet>

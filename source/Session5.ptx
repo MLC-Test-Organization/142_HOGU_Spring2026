@@ -30,8 +30,8 @@
     
     <paragraphs>
         <title>Getting Warmed Up and in the Right Mindset</title>
-    <exercise> <!-- controlling workspace length is the best way to force page breaks on a worksheet -->
-      <statement><!-- #1 -->
+    <exercise><!-- #1 --> <!-- controlling workspace length is the best way to force page breaks on a worksheet -->
+      <statement>
         <p>
             Let <m>f</m> and <m>g</m> be two differentiable functions.
             Circle the correct Product Rule for derivatives.
@@ -43,8 +43,9 @@
         </p>
       </statement>
     </exercise>
-    <exercise>
-      <statement><!-- #2 -->
+
+    <exercise><!-- #2 -->
+      <statement>
         <p>
             Let <m>f</m> and <m>g</m> be two differentiable functions.
             Circle the correct Quotient Rule for derivatives.
@@ -56,8 +57,9 @@
         </p>
       </statement>
     </exercise>
-    <exercise>
-      <statement><!-- #3 -->
+
+    <exercise><!-- #3 -->
+      <statement>
         <p>
           Fill in the blanks to complete the special cases of the chain rule.
           <p>
@@ -93,15 +95,16 @@
     
     <paragraphs>
         <title>Let Us Get Our Hands On</title>
-    <exercise workspace="1.5in" number="1"><!-- must restart numbering manually for each section -->
-      <statement><!-- #1 -->
+    <exercise workspace="1.5in" number="1"><!-- #1 --><!-- must restart numbering manually for each section -->
+      <statement>
         <p>
           Find <m>\D f'(x)</m> given <m>\D f(x)=4x^{2}(3x^{2/3}+5x)</m>.
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="1.5in" number="2">
-      <statement><!-- #2 -->
+
+    <exercise workspace="1.5in" number="2"><!-- #2 -->
+      <statement>
         <p>
         Find <m>\D \frac{d}{dx}\bigg( 6x^{2} \cdot 3^{x} + \frac{3}{x^{-2}}\bigg)</m>
         </p>
@@ -109,15 +112,16 @@
     </exercise>
   
   
-    <exercise workspace="2in" number="3">
-      <statement><!-- #3 -->
+    <exercise workspace="2in" number="3"><!-- #3 -->
+      <statement>
         <p> 
           Find the equation of the line tangent to the graph of <m>\D g(x)=\ln(x)\sqrt{x}</m> at <m>x=1</m>.
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="2in" number="4">
-      <statement><!-- #4 -->
+
+    <exercise workspace="2in" number="4"><!-- #4 -->
+      <statement>
         <p> 
           Determine if the work below is correct. If it is not correct, state why and work the problem correctly.  
         <md>  
@@ -127,8 +131,8 @@
       </statement>
     </exercise> 
   
-    <exercise workspace="2in" number="5">
-      <statement><!-- #5 -->
+    <exercise workspace="2in" number="5"><!-- #5 -->
+      <statement>
         <p>
           Given <m>\D g(x)=\frac{\sqrt[3]{x^{2}}+3}{e^{x}-4x^{3}}</m>, find <m>\D g'(x)</m>.
         </p>
@@ -136,8 +140,8 @@
     </exercise> 
   
   
-    <exercise number="6">
-      <introduction><!-- #6 -->
+    <exercise number="6"><!-- #6 -->
+      <introduction>
         <p> Find the derivatives of each function given below. Do not simplify your answers after  you have applied the appropriate derivative rules.</p>
       </introduction>
             <task workspace="1in">
@@ -181,10 +185,10 @@
               </p>
             </task>
     </exercise> 
-    <exercise number="7">
-      <introduction><!-- #7 -->
-        <p> Let <m>f(x)</m> be a differentiable function. The values of <m>f(x)</m> and <m>f'(x)</m> are given in the table below and the graph of <m>g(x)</m> is shown.</p>
 
+    <exercise number="7"><!-- #7 -->
+      <introduction>
+        <p> Let <m>f(x)</m> be a differentiable function. The values of <m>f(x)</m> and <m>f'(x)</m> are given in the table below and the graph of <m>g(x)</m> is shown.</p>
             <sidebyside widths ="40% 50%" valign ="middle">
             <p>
               <image source="MATH142_HOGU_Session5_Fig1.png" width="50%">
@@ -245,15 +249,15 @@
           </task>
     </exercise>  
 
-    <exercise number="8">
-      <statement><!-- #8 -->
+    <exercise number="8"><!-- #8 -->
+      <statement>
         <p> 
           Find all <m>x-</m>value(s) at which the tangent line to the curve <m>y = \frac{x^{2}-3}{2e^{x}}</m> is horizontal.
         </p>
       </statement>
     </exercise> 
-    <exercise number="9">
-      <statement><!-- #9 -->
+    <exercise number="9"><!-- #9 -->
+      <statement>
         <p> 
           The weekly profit for a company selling candles can be modeled by <m>P(x) = 0.7\sqrt{x^{5/2}-17}-137</m> dollars per <m>x</m> candles sold.
           Find the marginal profit when 200 candles are sold. Round your answer to the nearest cent.
@@ -266,49 +270,51 @@
     <paragraphs>
         <title>Now Grades Go Up</title>
       </paragraphs>
- <exercise number="1">
-  <statement><!-- #1 -->
-    <p>
-      The cost to produce <m>x</m> keychains in a day for a particular company is given by <m>C(x) = \sqrt{20x+2}+175</m> dollars.
-      Use marginal analysis to approximate the cost of producing the 10th keychain.
-        <ol marker="(a)">
-          <li> <p><m>\$ 0.22</m></p> </li>
-          <li> <p> <m>\$ 0.11</m></p> </li>
-          <li> <p><m>\$ 0.72</m> </p> </li>
-          <li> <p> <m>\$ 0.74</m></p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise number="2">
-  <statement><!-- #2 -->
-    <p>
-      The derivative of <m>f(x) = \frac{13x^{2}}{e^{x}+1}</m> is
-        <ol marker="(a)">
-          <li> <p> <m>\D f'(x) = \frac{13x^2e^x-26x(e^x+1)}{(e^x+1)^2}</m></p> </li>
-          <li> <p> <m>\D f'(x) = \frac{13x^2-e^x-1}{e^x+1}</m></p> </li>
-          <li> <p> <m>\D f'(x) = \frac{26x(e^x+1)-13x^2e^x}{e^x+1} </m> </p></li>
-          <li> <p><m>\D f'(x) = \frac{26x(e^x+1)-13x^2e^x}{(e^x+1)^2}</m> </p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise workspace ="1in" number="3">
-  <statement><!-- #3 -->
-    <p>
-      Find <m>h'(2)</m> given that <m>f(2) = -2,</m> <m>f'(2) = 5</m>, and <m>h(x) = (3x^{2})\cdot f(x)</m>
-        <ol marker="(a)">
-          <li> <p> <m>12</m> </p> </li>
-          <li> <p> <m>60</m> </p> </li>
-          <li> <p> <m>-24</m>  </p> </li>
-          <li> <p> <m>36</m> </p> </li>
-          <li> <p> <m>-60</m> </p> </li>
-        </ol>
-    </p>
-  </statement>
- </exercise>
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            The cost to produce <m>x</m> keychains in a day for a particular company is given by <m>C(x) = \sqrt{20x+2}+175</m> dollars.
+            Use marginal analysis to approximate the cost of producing the 10th keychain.
+              <ol marker="(a)">
+                <li> <p><m>\$ 0.22</m></p> </li>
+                <li> <p> <m>\$ 0.11</m></p> </li>
+                <li> <p><m>\$ 0.72</m> </p> </li>
+                <li> <p> <m>\$ 0.74</m></p> </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
+      
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            The derivative of <m>f(x) = \frac{13x^{2}}{e^{x}+1}</m> is
+              <ol marker="(a)">
+                <li> <p> <m>\D f'(x) = \frac{13x^2e^x-26x(e^x+1)}{(e^x+1)^2}</m></p> </li>
+                <li> <p> <m>\D f'(x) = \frac{13x^2-e^x-1}{e^x+1}</m></p> </li>
+                <li> <p> <m>\D f'(x) = \frac{26x(e^x+1)-13x^2e^x}{e^x+1} </m> </p></li>
+                <li> <p><m>\D f'(x) = \frac{26x(e^x+1)-13x^2e^x}{(e^x+1)^2}</m> </p> </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
 
-</worksheet>
+      <exercise workspace ="1in" number="3"><!-- #3 -->
+        <statement>
+          <p>
+            Find <m>h'(2)</m> given that <m>f(2) = -2,</m> <m>f'(2) = 5</m>, and <m>h(x) = (3x^{2})\cdot f(x)</m>
+              <ol marker="(a)">
+                <li> <p> <m>12</m> </p> </li>
+                <li> <p> <m>60</m> </p> </li>
+                <li> <p> <m>-24</m>  </p> </li>
+                <li> <p> <m>36</m> </p> </li>
+                <li> <p> <m>-60</m> </p> </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
+
+  </worksheet>
 
   </article>
 

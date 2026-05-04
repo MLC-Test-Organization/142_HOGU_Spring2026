@@ -30,8 +30,8 @@
     
     <paragraphs>
         <title>Getting Warmed Up and in the Right Mindset</title>
-    <exercise> <!-- controlling workspace length is the best way to force page breaks on a worksheet -->
-      <statement><!-- #1 -->
+    <exercise><!-- #1 --> <!-- controlling workspace length is the best way to force page breaks on a worksheet -->
+      <statement>
         <p>
           The introductory derivative rules are given below. For each rule, fill in the blank.
           <p>
@@ -59,8 +59,8 @@
       </statement>
     </exercise>
 
-    <exercise>
-      <introduction><!-- #2 -->
+    <exercise><!-- #2 -->
+      <introduction>
         <p>
          The following are circumstances for which a function <m>f</m> would not be differentiable at <m>x = a</m>.
          Draw at least one example of each.
@@ -93,7 +93,7 @@
     
     <paragraphs>
         <title>Let Us Get Our Hands On</title>
-    <exercise number="1"><!-- must restart numbering manually for each section -->
+    <exercise number="1"><!-- #1 --><!-- must restart numbering manually for each section -->
       <introduction>
         <p>
          Suppose we want to find the instantaneous rate of change of <m>\D f(x) = 3x^{2} - x</m> using the limit definition of the derivative.
@@ -122,7 +122,7 @@
       </task>
     </exercise> 
 
-    <exercise number="2">
+    <exercise number="2"><!-- #2 -->
       <introduction>
         <p>
           Consider <m>f(x) = \sqrt{x}.</m>
@@ -145,7 +145,7 @@
     </exercise>
   
   
-    <exercise number="3">
+    <exercise number="3"><!-- #3 -->
       <introduction>
         <p>
           Find <m>\frac{dy}{dx}</m> for each of the following using introductory derivative rules. It would help to refer to the Warm up.
@@ -195,7 +195,7 @@
       </task>
     </exercise> 
 
-    <exercise workspace="1in" number="4">
+    <exercise workspace="1in" number="4"><!-- #4 -->
       <statement><!-- #4 -->
         <p> Given <m>\displaystyle f(x)=2x^{3}+3e^{x}-5x^{-2}</m> find <m>\displaystyle f'(x)</m>.
         </p>
@@ -203,8 +203,8 @@
     </exercise> 
   
   
-    <exercise number="5">
-      <statement><!-- #5 -->
+    <exercise number="5"><!-- #5 -->
+      <statement>
         <p>
           Find <m>\displaystyle \frac{d}{dt}\bigg(\sqrt[3]{t^{2}}+5 \log_{2}(t)-\frac{7}{t^{4/3}}\bigg)</m>
         </p>
@@ -212,23 +212,23 @@
     </exercise> 
   
   
-    <exercise number="6">
-      <statement><!-- #6 -->
+    <exercise number="6"><!-- #6 -->
+      <statement>
         <p> 
          Find <m>\displaystyle \frac{d}{dx}\bigg( \frac{4}{x^{5}}+4^{x}\bigg)</m>
         </p>
       </statement>
     </exercise> 
 
-    <exercise number="7">
-      <statement><!-- #7 -->
+    <exercise number="7"><!-- #7 -->
+      <statement>
         <p> 
           Find <m>\D \frac{d}{dx}\bigg(\frac{5x^{4}-6x^{-3}+9}{x^{2}}\bigg)</m>
         </p>
       </statement>
     </exercise> 
 
-    <exercise number="8">
+    <exercise number="8"><!-- #8 -->
       <introduction>
         <p>
           Given <m>f(x) =7x^{\frac{1}{2}}-x+e</m> and <m>g(x) = \ln(x) - \frac{1}{x}</m>, find the following;
@@ -264,7 +264,7 @@
       </task>
     </exercise> 
 
-    <exercise number="9">
+    <exercise number="9"><!-- #9 -->
       <introduction>
         <p>
           Use <m>\displaystyle f(x)=\frac{1}{3x^{-3}}+\frac{x^{2}}{2}-4x</m> to answer the questions below. Leave all answers in exact form (i.e., fractions, logarithmic, etc.).
@@ -300,7 +300,7 @@
       </task>
     </exercise>
 
-    <exercise number ="10">
+    <exercise number ="10"><!-- #10 -->
       <statement>
         <p>
           Given <m>\D h(x)=\frac{1}{3}x^{3}+6\ln(x)</m> and graph of <m>f(x)</m> below, find <m>\D g\; '(-6)</m> given <m>\D g(x)=2h(x)+f(x)+x^{3}+0.5</m>.
@@ -320,7 +320,7 @@
       </statement>
     </exercise>
 
-    <exercise number="11">
+    <exercise number="11"><!-- #11 -->
      <statement>
       <p>
         Match the correct sentence to the correct formula.
@@ -394,7 +394,7 @@
      </statement> 
     </exercise>
 
-    <exercise number="12">
+    <exercise number="12"><!-- #12 -->
       <introduction>
         <p>
           The price-demand function, <m>\D p(x)</m>, and cost function, <m>\D C(x)</m>, for the production of electric saws are given by 
@@ -430,8 +430,8 @@
     <paragraphs>
         <title>Now Grades Go Up</title>
       </paragraphs>
- <exercise number="1">
-  <statement><!-- #1 -->
+ <exercise number="1"><!-- #1 -->
+  <statement>
     <p>
       At which <m>x</m>-value(s) does <m>f(x) = x^{2} +6x-7</m> have a horizontal tangent line?
         <ol marker="(a)">
@@ -444,8 +444,8 @@
     </p>
   </statement>
  </exercise>
- <exercise number="2">
-  <statement><!-- #2 -->
+ <exercise number="2"><!-- #2 -->
+  <statement>
     <p>
       Consider the following graph of <m>p(x)</m>.
       <image source="MATH142_HOGU_Session3_Fig6.png" width="70%">

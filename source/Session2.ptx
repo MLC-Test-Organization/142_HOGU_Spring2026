@@ -29,16 +29,16 @@
     </p>
       <paragraphs>
         <title>Getting Warmed Up and in the Right Mindset</title>
-    <exercise workspace="2.5in">
-      <statement><!-- #1 -->
+    <exercise workspace="2.5in"><!-- #1 -->
+      <statement>
         <p>
           Given <m>\displaystyle {\lim_{x\rightarrow \infty} f(x) = 4}</m> and <m>\D {\lim_{x\rightarrow -\infty} f(x) = -2}</m>,
            what do you then know about any horizontal asymptotes of <m>f(x)</m>?
         </p>
       </statement>
       </exercise>
-      <exercise workspace="2.5in">
-      <statement><!-- #2 -->
+      <exercise workspace="2.5in"><!-- #2 -->
+      <statement>
         <p>
         Given the following information about <m>g(x)</m>, what do you know about the horizontal and vertical asymptotes? 
         <md>
@@ -53,8 +53,8 @@
     </exercise>
     
     
-    <exercise workspace="4.1in">
-      <statement><!-- #3 -->
+    <exercise workspace="4.1in"><!-- #3 -->
+      <statement>
         <p>
             Determine each of the following limits.
             Input the functions into your graphing calculator if you prefer a graphical view to find the limits.
@@ -102,6 +102,7 @@
         </p>
       </statement>
     </exercise>
+
     <exercise><!-- #4 -->
       <introduction>
         <p>
@@ -148,8 +149,8 @@
     </exercise> 
     
     
-    <exercise number="2">
-      <introduction><!-- #2 -->
+    <exercise number="2"><!-- #2 -->
+      <introduction>
         <p>
         Given <m>\D f(x)=\frac{4-e^{-2x}}{3e^{-2x}+1}</m>, follow the steps below to find the horizontal asymptotes of <m>f</m>, if any exist.
         </p>
@@ -186,8 +187,8 @@
     </exercise>
     
     
-    <exercise number="3">
-      <statement><!-- #3 -->
+    <exercise number="3"><!-- #3 -->
+      <statement>
         <p> 
         Below is an outline of the Definition of Continuity at a Point.
         Fill in the blanks below to correctly complete the text in the definition.
@@ -204,15 +205,15 @@
         </p>
       </statement>
     </exercise> 
-    <exercise workspace="1in" number="4">
-      <statement><!-- #4 -->
+    <exercise workspace="1in" number="4"><!-- #4 -->
+      <statement>
         <p> 
         If you know <m>\D \lim_{x\rightarrow 2}g(x) = 4</m> and <m>g(2)=7</m>, can you correctly conclude that <m>g(x)</m> continuous at <m>x=2</m>? Why or why not?
         </p>
       </statement>
     </exercise> 
     
-    <exercise  number="5"><!-- #5 -->
+    <exercise number="5"><!-- #5 -->
       <introduction>
         <p>
           Use the graph of <m>f(x)</m> to determine if <m>f(x)</m> is continuous at <m>x=-2</m>.
@@ -251,8 +252,8 @@
     </exercise> 
     
     
-    <exercise number="6">
-      <introduction><!-- #6 -->
+    <exercise number="6"><!-- #6 -->
+      <introduction>
         <p> 
           Use the graph of <m>f(x)</m> to determine if <m>f(x)</m> is continuous at <m>x=-2</m>.
           <image source="MATH142_HOGU_Session2_Fig2.png" width="50%">
@@ -288,8 +289,8 @@
             </task>
     </exercise> 
 
-    <exercise number="7">
-      <introduction><!-- #7 -->
+    <exercise number="7"><!-- #7 -->
+      <introduction>
         <p> 
           Use the graph of <m>h(x)</m> to determine if <m>h(x)</m> is continuous at <m>x=-2</m>.
           <image source="MATH142_HOGU_Session2_Fig3.png" width="50%">
@@ -326,8 +327,8 @@
     </exercise> 
     
     
-    <exercise number="8">
-      <introduction><!-- #8 -->
+    <exercise number="8"><!-- #8 -->
+      <introduction>
         <p> 
           Use the graph of <m>p(x)</m> to determine if <m>p(x)</m> is continuous at <m>x=3</m>.
           <image source="MATH142_HOGU_Session2_Fig4.png" width="50%">
@@ -363,8 +364,8 @@
             </task>
     </exercise> 
 
-    <exercise number="9">
-      <introduction><!-- #9 -->
+    <exercise number="9"><!-- #9 -->
+      <introduction>
         <p> 
           Use the graph of <m>t(x)</m> to determine if <m>t(x)</m> is continuous at <m>x=-4</m>.
           <image source="MATH142_HOGU_Session2_Fig5.png" width="50%">
@@ -404,8 +405,8 @@
     </exercise> 
   
   
-    <exercise number="10">
-      <introduction><!-- #10 -->
+    <exercise number="10"><!-- #10 -->
+      <introduction>
         <p> 
           Determine the intervals of continuity for each function below.
           <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa">Page 126 of your textbook</url> 
@@ -465,59 +466,59 @@
         </description>
       </image>
       </p>
- <exercise workspace ="1in" number="1">
-  <statement><!-- #1 -->
-    <p>
-      The graph of <m>f(x)</m> is not continuous at <m>x=2</m> because <fillin/> 
-      <ol marker="I.">
-       <li><m>f(2)</m> is not defined.</li>
-       <li><m>\D{\lim_{x\rightarrow 2} f(x)}</m> does not exist.</li>
-       <li><m>f(2) \neq \D{\lim_{x\rightarrow 2} f(x)}.</m></li>
-      </ol>
-      <ol marker="(a)">
-        <li> I and III only </li>
-        <li> III only </li>
-        <li> II and III only </li>
-        <li> I, II, and III </li>
-        <li> II only </li>
-      </ol>
-    </p>
-  </statement>
- </exercise>
- <exercise workspace ="2in" number="2">
-  <statement><!-- #2 -->
-    <p>
-      Which of the following is true regarding the horizontal asymptotes for <m>\D g(x)=\frac{3e^{3x}-5}{7e^{2x}+8}</m>?
-      <ol marker="(a)">
-        <li><m>g(x)</m> does not have any horizontal asymptotes. </li>
-        <li> <m>g(x)</m> has two horizontal asymptotes; one at <m>\D y=\frac{3}{7}</m> and another at <m>\D y=-\frac{5}{8}</m>. </li>
-        <li> <m>g(x)</m> has only one horizontal asymptotes at <m>\D y=\frac{3}{7}</m>. </li>
-        <li> <m>g(x)</m> has only one horizontal asymptotes at <m>\D y=-\frac{5}{8}</m>. </li>
-        <li> <m>g(x)</m> has two horizontal asymptotes; one at <m>\D y=0</m> and another at <m>\D y=\frac{3}{7}</m>. </li>
-      </ol>
-    </p>
-  </statement>
- </exercise>
+      <exercise workspace ="1in" number="1"><!-- #1 -->
+        <statement>
+          <p>
+            The graph of <m>f(x)</m> is not continuous at <m>x=2</m> because <fillin/> 
+            <ol marker="I.">
+            <li><m>f(2)</m> is not defined.</li>
+            <li><m>\D{\lim_{x\rightarrow 2} f(x)}</m> does not exist.</li>
+            <li><m>f(2) \neq \D{\lim_{x\rightarrow 2} f(x)}.</m></li>
+            </ol>
+            <ol marker="(a)">
+              <li> I and III only </li>
+              <li> III only </li>
+              <li> II and III only </li>
+              <li> I, II, and III </li>
+              <li> II only </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise workspace ="2in" number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Which of the following is true regarding the horizontal asymptotes for <m>\D g(x)=\frac{3e^{3x}-5}{7e^{2x}+8}</m>?
+            <ol marker="(a)">
+              <li><m>g(x)</m> does not have any horizontal asymptotes. </li>
+              <li> <m>g(x)</m> has two horizontal asymptotes; one at <m>\D y=\frac{3}{7}</m> and another at <m>\D y=-\frac{5}{8}</m>. </li>
+              <li> <m>g(x)</m> has only one horizontal asymptotes at <m>\D y=\frac{3}{7}</m>. </li>
+              <li> <m>g(x)</m> has only one horizontal asymptotes at <m>\D y=-\frac{5}{8}</m>. </li>
+              <li> <m>g(x)</m> has two horizontal asymptotes; one at <m>\D y=0</m> and another at <m>\D y=\frac{3}{7}</m>. </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
 
 
- <exercise workspace ="1in" number="3">
-  <statement><!-- #3 -->
-    <p>
-      Suppose for some function <m>g(x)</m>, you know <m>\D{\lim_{x\rightarrow 3^-} g(x) \rightarrow -\infty}</m>.
-      What can you conclude happens at <m>x=3</m>?
-      <ol marker="(a)">
-        <li> <m>g(x)</m> has a vertical asymptote at <m>x=3</m>. </li>
-        <li> <m>g(x)</m> has a horizontal asymptote at <m>x=3</m>. </li>
-        <li> <m>\D{\lim_{x\rightarrow -\infty} g(x) =-3}</m>.</li>
-        <li> <m>g(x)</m> has a hole at <m>x=3</m>. </li>
-        <li> <m>g(3)=\infty</m> </li>
-      </ol>
-    </p>
-  </statement>
- </exercise>
-</paragraphs>
+      <exercise workspace ="1in" number="3"><!-- #3 -->
+        <statement>
+          <p>
+            Suppose for some function <m>g(x)</m>, you know <m>\D{\lim_{x\rightarrow 3^-} g(x) \rightarrow -\infty}</m>.
+            What can you conclude happens at <m>x=3</m>?
+            <ol marker="(a)">
+              <li> <m>g(x)</m> has a vertical asymptote at <m>x=3</m>. </li>
+              <li> <m>g(x)</m> has a horizontal asymptote at <m>x=3</m>. </li>
+              <li> <m>\D{\lim_{x\rightarrow -\infty} g(x) =-3}</m>.</li>
+              <li> <m>g(x)</m> has a hole at <m>x=3</m>. </li>
+              <li> <m>g(3)=\infty</m> </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+      </paragraphs>
 
-</worksheet>
+  </worksheet>
 
   </article>
 
