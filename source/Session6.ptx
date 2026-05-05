@@ -237,14 +237,14 @@
       <task workspace="2in">
         <statement>
           <p>
-            Step 2&amp;3:
+            Step 2&amp;3: The partition numbers of <m>f'(x)</m> are <fillin characters="15" /> and the critical values of <m>f(x)</m> are <fillin characters="15" />.
           </p>
         </statement>
       </task>
       <task workspace="2in">
         <statement>
           <p>
-           Step 4: 
+           Step 4: <m>f(x)</m> is increasing on <fillin characters="15" /> and <m>f(x)</m> is decreasing on <fillin characters="15" />.
           </p>
         </statement>
       </task>
@@ -253,6 +253,83 @@
     <exercise number="7"><!-- #7 -->
       <statement>
         <p>
+          <theorem xml:id="thm-local-extrema">
+            <statement>
+              <p>
+                Suppose <m>f(x)</m> is continuous on an interval containing the critical value <m>x = c</m> and <m>f(x)</m> is differentiable near, 
+                and on both sides of, <m>x = c</m>. Then, <m>f (c)</m> satisfies one of the following:
+                <ul>
+                  <li>
+                    <p>
+                      If <m>f '(x)</m> changes sign from positive to negative at <m>x = c</m>, then <m>f(c)</m> is a local maximum of <m>f(x)</m>.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                     If <m>f '(x)</m> changes sign from negative to positive at <m>x = c</m>, then <m>f (c)</m> is a local minimum of <m>f(x)</m>.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      If <m>f'(x)</m> does not change sign at <m>x = c</m>, then <m>f (c)</m> is neither a local maximum nor a local minimum of <m>f(x)</m>.
+                    </p>
+                  </li>
+                </ul>
+                The first derivative sign chart for <m>\D f(x)=3x^{4}-8x^{3}+6x^{2}</m> (#6 above) is given below. 
+                Use this chart and the above theorem to find the <m>x-</m>values of all local extrema for <m>f(x)</m>.
+                                  
+                <image width="100%">
+                  <shortdescription>this is a short description</shortdescription>
+                  <description><p>A table of the RNA codons.</p></description>
+                  <latex-image label="scaling-tikz">
+                  \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+                  %uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+                  %Straight Lines [id:da15062745544499068] 
+                  \draw [line width=1.5]    (152,91) -- (470,90) ;
+                  %Straight Lines [id:da24334597009083647] 
+                  \draw  [dash pattern={on 0.84pt off 2.51pt}]  (10,90) -- (152,91) ;
+                  %Straight Lines [id:da9941703709593537] 
+                  \draw    (152,60) -- (152,120) ;
+                  %Straight Lines [id:da35116156909703444] 
+                  \draw    (241,81) -- (241,100) ;
+                  %Straight Lines [id:da5992193201402582] 
+                  \draw    (354,80) -- (354,100) ;
+                  %Shape: Circle [id:dp5915494726364277] 
+                  \draw  [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (236,91) .. controls (236,88.24) and (238.24,86) .. (241,86) .. controls (243.76,86) and (246,88.24) .. (246,91) .. controls (246,93.76) and (243.76,96) .. (241,96) .. controls (238.24,96) and (236,93.76) .. (236,91) -- cycle ;
+                  %Shape: Circle [id:dp10698857422927244] 
+                  \draw  [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (349,90) .. controls (349,87.24) and (351.24,85) .. (354,85) .. controls (356.76,85) and (359,87.24) .. (359,90) .. controls (359,92.76) and (356.76,95) .. (354,95) .. controls (351.24,95) and (349,92.76) .. (349,90) -- cycle ;
+
+                  % Text Node
+                  \draw (50,48) node [anchor=north west][inner sep=0.75pt]   [align=left] {\textit{sign of} $f'( x)$};
+                  % Text Node
+                  \draw (33,95) node [anchor=north west][inner sep=0.75pt]   [align=left] {\textit{behavior of $f(x)$}};
+                  % Text Node
+                  \draw (50,68) node [anchor=north west][inner sep=0.75pt]    {$"+"$ or $"-"$};
+                  % Text Node
+                  \draw (50,116.4) node [anchor=north west][inner sep=0.75pt]    {$\nearrow \ $ or $\ \searrow $};
+                  % Text Node
+                  \draw (235,102.4) node [anchor=north west][inner sep=0.75pt]    {$0$};
+                  % Text Node
+                  \draw (349,102.4) node [anchor=north west][inner sep=0.75pt]    {$1$};
+                  % Text Node
+                  \draw (204,62.4) node [anchor=north west][inner sep=0.75pt]    {$-$};
+                  % Text Node
+                  \draw (297,62.4) node [anchor=north west][inner sep=0.75pt]    {$+$};
+                  % Text Node
+                  \draw (397,62.4) node [anchor=north west][inner sep=0.75pt]    {$+$};
+                  % Text Node
+                  \draw (190,102.4) node [anchor=north west][inner sep=0.75pt]    {$\searrow $};
+                  % Text Node
+                  \draw (288,102.4) node [anchor=north west][inner sep=0.75pt]    {$\nearrow $};
+                  % Text Node
+                  \draw (388,102.4) node [anchor=north west][inner sep=0.75pt]    {$\nearrow $};
+                  \end{tikzpicture}
+                  </latex-image>
+                </image>
+              </p>
+            </statement>
+          </theorem>
             
         </p>
       </statement>
@@ -261,7 +338,8 @@
     <exercise number="8"><!-- #8 -->
       <statement>
         <p> 
-          
+          Given <m>\D f(x)=\frac{4+4x}{3x^{2/3}}</m> and <m>\D f'(x)=\frac{-8+4x}{9x^{5/3}}</m>, find 
+          (a) intervals where the function is increasing and decreasing and (b) <m>x-</m>values of any local extrema.
         </p>
       </statement>
     </exercise> 
