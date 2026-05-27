@@ -11,7 +11,7 @@
     <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
   </docinfo>
 
-  <article xml:id="samplewks" label="0000">
+  <article xml:id="session8wks" label="0008">
     <title>MATH 142 Hands-On, Grades Up</title>
     <introduction>
     <p>
@@ -22,7 +22,10 @@
 <worksheet>
     <title> Session #8 (Sections 3.4-3.5)</title>
     <p>
-      The Math 142 textbook is free and can be downloaded as a PDF at <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa">Texas A&amp;M The OAKTrust Digital Repository</url>.
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. 
+      For additional practice problems and explanations, refer to the Math 142 textbook which is free and can be downloaded as a PDF 
+      at <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa"> Texas A&amp;M The OAKTrust Digital Repository </url>.
+      <!--'&' and '<' are exceptional characters and are instead authored as &lt; and &amp;. See 4.1.4.2-->
     </p>
     
     <paragraphs>

@@ -11,7 +11,7 @@
     <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
   </docinfo>
 
-  <article xml:id="samplewks" label="4000">
+  <article xml:id="session4wks" label="4000">
     <title>MATH 142 Hands-On, Grades Up</title>
     <introduction>
     <p>
