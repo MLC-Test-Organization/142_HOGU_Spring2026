@@ -1,0 +1,482 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>nakad-HOGUSession10</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>
+      \newcommand{\D}{\displaystyle}
+    </macros>
+  </docinfo>
+
+<article xml:id="session10wks" label="5107">
+
+  <title>MATH 142 Hands-On, Grades Up</title>
+
+  <introduction>
+    <p>
+      For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+
+  <worksheet>
+
+    <title>Session #10 (3.4 - 3.5, 4.1 - 4.4)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. 
+      For additional practice problems and explanations, refer to the Math 142 textbook which is free and can be downloaded as a PDF 
+      at <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa"> Texas A&amp;M The OAKTrust Digital Repository </url>.
+      <!--'&' and '<' are exceptional characters and are instead authored as &lt; and &amp;. See 4.1.4.2-->
+    </p>
+
+    <paragraphs>
+
+      <title>Getting Warmed Up and in the Right Mindset</title>
+
+      <exercise workspace="2in">
+
+        <statement>
+          <p>
+            Use the graph of <m>g^\prime(x)</m> given below and shade in the area represented by
+            <m>\int_0^5 g^\prime(x)\,dx</m>.
+          </p>
+
+          <image source="MATH142_HOGU_Session10_Fig1.png"
+                 width="40%"/>
+        </statement>
+
+      </exercise>
+
+      <exercise workspace="2in">
+
+        <statement>
+          <p>
+            Use the graph of <m>g^\prime(x)</m> given below and shade in the area represented by
+            <m>\int_7^{13} g^\prime(x)\,dx</m>.
+          </p>
+
+          <image source="MATH142_HOGU_Session10_Fig1.png"
+                 width="40%"/>
+        </statement>
+
+      </exercise>
+
+    </paragraphs>
+
+    <paragraphs>
+
+      <title>Let Us Get Our Hands On</title>
+
+      <exercise workspace="2in" number="1">
+
+        <introduction>
+          <p>
+            Given the graph of <m>g'(x)</m> below, compute the integrals below.
+          </p>
+
+          <image source="MATH142_HOGU_Session10_Fig1.png"
+                 width="40%"/>
+        </introduction>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int_0^2 g^\prime(x)\,dx</m>.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int_5^9 g^\prime(x)\,dx</m>.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int_0^{13} g^\prime(x)\,dx</m>.
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+      <exercise workspace="2in" number="2">
+
+        <introduction>
+          <p>
+            Consider the function <m>f(x)=-\frac{1}{4}x^2+1</m>.
+          </p>
+        </introduction>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Sketch a graph of <m>f(x)</m> and use your sketch to draw the rectangles that represent the right-hand Riemann sum on
+              <m>[-2,0]</m>
+              using <m>4</m> subintervals of equal width.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Estimate the area under the curve of <m>f(x)</m> over the interval <m>[-2,0]</m> using a right-hand Riemann sum with <m>4</m> subintervals of equal width. Is this an overestimate or an underestimate?
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              State the Fundamental Theorem of Calculus Part 2 (see page 709 of your textbook).
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Use the Fundamental Theorem of Calculus Part 2 to find the exact value of
+              <m>\int_{-2}^0 f(x)\,dx</m>.
+              How does this compare to your answer in part (b)?
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+      <exercise workspace="2in" number="3">
+
+        <introduction>
+          <p>
+            Evaluate each of the following definite integrals exactly. Leave all answers in exact form.
+          </p>
+        </introduction>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int_{-2}^2 (x^3-3x^2+3x-1)\,dx</m>
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int_3^7 \sqrt{x-3}\,dx</m>
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int_0^3 \frac{6x}{(x^2+1)^2}\,dx</m>
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int_0^{\sqrt{10}} \frac{4x}{9+x^2}\,dx</m>
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+      <exercise workspace="2in" number="4">
+
+        <introduction>
+          <p>
+            Find all values of <m>A</m> such that:
+          </p>
+        </introduction>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int_2^4 (x^3+3x^2+A)\,dx = 12</m>
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int_{-1}^1 Ax\,dx = -3</m>
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              <m>\int_{e^A}^7 \frac{1}{x}\,dx = 5</m>
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+      <exercise workspace="2in" number="5">
+
+        <introduction>
+          <p>
+            A local bagel shop's marginal profit is given by
+            <m>p^\prime(x)=0.05x^2-2.1x+100</m>
+            dollars per bagel when <m>x</m> bagels are sold.
+          </p>
+        </introduction>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Estimate the change in profit when the number of bagels increases from <m>50</m> to <m>59</m> using <m>3</m> subintervals of equal width and a left Riemann sum.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Find the exact change in profit when the number of bagels increases from <m>50</m> to <m>59</m> using the Fundamental Theorem of Calculus Part 2.
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+      <exercise workspace="2in" number="6">
+
+        <introduction>
+          <p>
+            A company sells <m>x</m> handbags per year priced at <m>\$p</m> per handbag. The company's price-demand function for the handbags is given by
+            <m>p(x)=100-0.05x</m>.
+            Each handbag costs <m>\$15</m> to manufacture and the company has fixed costs of <m>\$12{,}000</m> per year.
+          </p>
+        </introduction>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              What is the yearly cost function <m>C(x)</m>?
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              What is the yearly revenue function <m>R(x)</m>?
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              Use parts (a) and (b) to determine the yearly profit function <m>P(x)</m>.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1.5in">
+          <statement>
+            <p>
+              Find a reasonable domain to restrict <m>P(x)</m> to.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              How many handbags must the company sell to maximize its profit? What is the company's maximum profit?
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+      <exercise workspace="2in" number="7">
+
+        <introduction>
+          <p>
+            A manufacturer needs to make a closed cylindrical can that will hold <m>1500</m> cm<sup>3</sup> of water. Determine the dimensions (in cm) of the can that will use the least amount of material.
+          </p>
+
+          <p>
+            (Hint: The formula for the volume of a cylinder is
+            <m>V=\pi r^2h</m>
+            and the formula for the surface area of a cylinder is
+            <m>A=2\pi rh+2\pi r^2</m>.)
+          </p>
+        </introduction>
+
+        <task workspace="1in">
+          <statement>
+            <p>
+              Is this a maximum or minimum problem?
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="1in">
+          <statement>
+            <p>
+              What is to be maximized/minimized?
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Formulate the objective function.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Formulate any constraint equations.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Find any critical values of the objective function.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Provide the final answer (with units).
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+      <exercise workspace="2in" number="8">
+
+        <introduction>
+          <p>
+            Consider the function <m>f^\prime(x)=3e^x-x^{3/2}+1</m>.
+          </p>
+        </introduction>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Find the general anti-derivative of <m>f^\prime(x)</m>.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Find the constant of integration <m>C</m> given <m>f(0)=2</m>.
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+      <exercise workspace="2in" number="9">
+
+        <introduction>
+          <p>
+            Consider the function
+            <m>h(x)=x^3+\frac{3}{2}x^2-18x</m>.
+          </p>
+        </introduction>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Find all absolute extrema of <m>h(x)</m> on <m>[-6,4]</m>.
+            </p>
+          </statement>
+        </task>
+
+        <task workspace="2in">
+          <statement>
+            <p>
+              Find all absolute extrema of <m>h(x)</m> on <m>(-6,0)</m>.
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+    </paragraphs>
+
+    <paragraphs>
+
+      <title>Now Grades Go Up</title>
+
+      <exercise workspace="1.5in" number="1">
+
+        <statement>
+          <p>
+            Suppose the area under the curve <m>g'(x)</m> from <m>x=a</m> to <m>x=b</m> is <m>17</m>. If we know <m>g(b)=9</m>, find <m>g(a)</m>.
+          </p>
+
+          <ol marker="(a)">
+            <li><p><m>g(a)=-8</m></p></li>
+            <li><p><m>g(a)=26</m></p></li>
+            <li><p><m>g(a)=8</m></p></li>
+            <li><p><m>g(a)=-26</m></p></li>
+            <li><p><m>g(a)=17/9</m></p></li>
+          </ol>
+
+        </statement>
+
+      </exercise>
+
+      <exercise workspace="1.5in" number="2">
+
+        <statement>
+          <p>
+            Given that <m>f(x)</m> is a continuous function,
+            <m>\int_{-2}^{3} f(x)\,dx=-4</m>,
+            and
+            <m>\int_{0}^{-2} f(x)\,dx=7</m>,
+            find
+            <m>\int_0^3 (2x+f(x))\,dx</m>.
+          </p>
+
+          <ol marker="(a)">
+            <li><p><m>9</m></p></li>
+            <li><p><m>-2</m></p></li>
+            <li><p><m>-11</m></p></li>
+            <li><p><m>12</m></p></li>
+            <li><p><m>19</m></p></li>
+          </ol>
+
+        </statement>
+
+      </exercise>
+
+    </paragraphs>
+
+  </worksheet>
+
+</article>
+
+</pretext>
