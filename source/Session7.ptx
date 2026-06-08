@@ -30,21 +30,21 @@
     
     <paragraphs>
         <title>Getting Warmed Up and in the Right Mindset</title>
-      <exercise xml:id="warmup-1">
+      <exercise>
           <introduction>
             <p>Let <m>f(x) = 3x^7 - x^6 + 17</m>.</p>
           </introduction>
-          <task xml:id="warmup-1a">
+          <task workspace="1in">
             <statement>
               <p>On what interval(s) is <m>f(x)</m> increasing?</p>
             </statement>
           </task>
-          <task xml:id="warmup-1b">
+          <task workspace="1in">
             <statement>
               <p>On what interval(s) is <m>f(x)</m> concave down?</p>
             </statement>
           </task>
-          <task xml:id="warmup-1c">
+          <task workspace="1in">
             <statement>
               <p>On what interval(s) is <m>f(x)</m> both increasing and concave down?</p>
             </statement>
@@ -55,7 +55,7 @@
     
     <paragraphs>
         <title>Let Us Get Our Hands On</title>
-      <exercise xml:id="handson-1">
+      <exercise workspace="1in" number="1">
           <statement>
             <p>
               Below is a list of information given about a function <m>f</m>.
@@ -78,7 +78,7 @@
           </statement>
         </exercise>
 
-        <exercise xml:id="handson-2">
+        <exercise workspace="1in" number="2">
           <statement>
             <p>
               Find <m>f'(x)</m> given <m>f(x) = x^2 + 3x - 1</m> using the
@@ -87,53 +87,61 @@
           </statement>
         </exercise>
 
-        <exercise xml:id="handson-3">
+        <exercise workspace="1in" number="3">
           <statement>
             <p>
               A function <m>p(x)</m> is graphed below. Find all <m>x</m>-values
               where the derivative of <m>p(x)</m> does not exist and give a
               reason for why the derivative does not exist at that <m>x</m>-value.
             </p>
-            <figure xml:id="fig-p-graph">
-              <caption>Graph of <m>p(x)</m></caption>
-              <image source="Graphics/MATH142_HOGU_Session3_Fig6.png" width="60%">
-                <description>Graph of p(x) showing points of non-differentiability.</description>
-              </image>
-            </figure>
+            <image source="MATH142_HOGU_Session3_Fig6.png" width="70%">
+          <shortdescription> Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+          <description>
+            <p>
+              Graph of a piecewise function <m>p(x)</m> plotted on coordinate axes.
+              Starting from the bottom left, the graph increases to the point <m>(4,18.34)</m> where it is very steep and almost appears vertical around <m>x=-6</m>.
+              The graph is then linear and decreases from <m>(4,18.34)</m> to <m>(8,2.34)</m>.
+              The graph then picks up again at <m>(8,10.25)</m> where it increases and approaches, but doesn't touch, the vertical asymptote <m>x=10</m> until it
+              leaves the coordinate axes. 
+              The graph then decreases coming from the right side of the vertical asymptote and approaches, but doesn't touch, the horizontal asymptote <m>y=10</m>
+              until it leaves the coordinate axes.
+            </p>
+          </description>
+            </image>
           </statement>
         </exercise>
 
-        <exercise xml:id="handson-4">
-          <statement>
+        <exercise number="4">
+          <introduction>
             <p>
               Find the derivatives of the following functions. Do not simplify
               your answers; it is okay to just apply the appropriate derivative
               rules and leave the answer unsimplified.
             </p>
-          </statement>
-          <task xml:id="handson-4a">
+          </introduction>
+          <task workspace="1in">
             <statement>
               <p><m>\displaystyle f(x)=\left(e^{x+e^x}\right) \sqrt[3]{x^2+1}</m></p>
             </statement>
           </task>
-          <task xml:id="handson-4b">
+          <task workspace="1in">
             <statement>
               <p><m>\displaystyle f(x)=\frac{x^2}{3^{2x^4+x}}</m></p>
             </statement>
           </task>
-          <task xml:id="handson-4c">
+          <task workspace="1in">
             <statement>
               <p><m>\displaystyle f(x)=e^{e^{2x}}+\ln \left( \frac{3x^2+2}{5x-1} \right) +e^{\pi}</m></p>
             </statement>
           </task>
-          <task xml:id="handson-4d">
+          <task workspace="1in">
             <statement>
               <p><m>\displaystyle f(x)=\left( \log_2(e^{3x}+x^2) \right)^3</m></p>
             </statement>
           </task>
         </exercise>
 
-        <exercise xml:id="handson-5">
+        <exercise workspace="1in" number="5">
           <statement>
             <p>
               Find the equation of the line tangent to
@@ -142,7 +150,7 @@
           </statement>
         </exercise>
 
-        <exercise xml:id="handson-6">
+        <exercise workspace="1in" number="6">
           <statement>
             <p>
               Given <m>\displaystyle 10x^2 + \frac{13}{2}y^2 - 9 = x^4y^5</m>,
@@ -151,7 +159,7 @@
           </statement>
         </exercise>
 
-        <exercise xml:id="handson-7">
+        <exercise workspace="1in" number="7">
           <statement>
             <p>
               Given the following information about <m>f(x)</m>, determine the
@@ -166,20 +174,10 @@
                 <li><p><m>\displaystyle f''(x)=\frac{64}{(x+4)^3}</m></p></li>
               </ul>
             </p>
-            <p>
-              <ul>
-                <li><p><m>f</m> is increasing on <fillin characters="20"/></p></li>
-                <li><p><m>f</m> is decreasing on <fillin characters="20"/></p></li>
-                <li><p><m>f</m> is concave up on <fillin characters="20"/></p></li>
-                <li><p><m>f</m> is concave down on <fillin characters="20"/></p></li>
-                <li><p><m>f</m> has local extrema at <fillin characters="20"/></p></li>
-                <li><p><m>f</m> has point(s) of inflection at <fillin characters="20"/></p></li>
-              </ul>
-            </p>
           </statement>
         </exercise>
 
-        <exercise xml:id="handson-8">
+        <exercise workspace="1in" number="8">
           <statement>
             <p>
               Use the second derivative test to find the relative extrema of
@@ -189,19 +187,16 @@
           </statement>
         </exercise>
 
-        <exercise xml:id="handson-9">
+        <exercise workspace="1in" number="9">
           <statement>
             <p>
               A cylindrical tank with a radius of 2 meters is being filled with
               water at a rate of 10 cubic meters per minute. How fast is the
               height of the water increasing when the water is 5 meters deep?
             </p>
-            <figure xml:id="fig-cylinder">
-              <caption>Cylinder diagram</caption>
-              <image source="Graphics/Cylninder.png" width="15%">
+              <image source="Cylninder.png" width="15%">
                 <description>Diagram of a cylinder.</description>
               </image>
-            </figure>
             <p>
               <alert>Formulas for Cylinders:</alert>
               Volume: <m>\displaystyle V=\pi r^2h</m>;
@@ -214,7 +209,7 @@
   
     <paragraphs>
         <title>Now Grades Go Up</title>
-      <exercise xml:id="gradesup-1">
+      <exercise workspace="1in" number="1">
           <statement>
             <p>
               A marker manufacturer determined that the total cost, in dollars,
@@ -226,7 +221,7 @@
           </statement>
         </exercise>
 
-        <exercise xml:id="gradesup-2">
+        <exercise workspace="1in" number="2">
           <statement>
             <p>
               A marker manufacturer determined that the total cost, in dollars,
@@ -238,14 +233,14 @@
           </statement>
         </exercise>
 
-        <exercise xml:id="gradesup-3">
+        <exercise workspace="1in" number="3">
           <statement>
             <p>
               Given <m>\displaystyle h(x)=\frac{f(x)}{\sqrt{2x}}</m>,
               <m>f(8)=80</m>, and <m>f'(8)=3</m>, find <m>h'(8)</m>.
             </p>
             <p>
-              <ol label="a">
+              <ol marker="(a)">
                 <li><p><m>\displaystyle -\frac{1}{2}</m></p></li>
                 <li><p><m>\displaystyle \frac{1}{2}</m></p></li>
                 <li><p><m>\displaystyle \frac{1}{8}</m></p></li>
@@ -256,7 +251,7 @@
           </statement>
         </exercise>
 
-        <exercise xml:id="gradesup-4">
+        <exercise number="4">
           <statement>
             <p>Circle the graph that fits the criteria below.</p>
             <p>
@@ -270,51 +265,73 @@
               </ul>
             </p>
             <p>
-              <ol label="a">
+              <ol marker="(a)">
                 <li>
                   <p>Graph I</p>
-                  <figure xml:id="fig-graph1">
-                    <caption>Graph I</caption>
-                    <image source="Graphics/MATH142_HOGU_Session7_Fig4.png" width="45%">
-                      <description>Graph I — candidate graph for h(x).</description>
+                    <image source="MATH142_HOGU_Session7_Fig4.png" width="45%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+                      <description>
+                        <p>
+                          Graph of a function, labeled <m>h(x)</m>, plotted on coordinate axes. The curve rises as <m>x</m> increases from the left, 
+                          reaching a smooth peak at <m>(-2,1)</m>, and then decreases to the 
+                          right and off the graph. The curve is concave down throughout.
+                        </p>
+                      </description>
                     </image>
-                  </figure>
                 </li>
                 <li>
                   <p>Graph II</p>
-                  <figure xml:id="fig-graph2">
-                    <caption>Graph II</caption>
-                    <image source="Graphics/MATH142_HOGU_Session7_Fig5.png" width="45%">
-                      <description>Graph II — candidate graph for h(x).</description>
+                    <image source="MATH142_HOGU_Session7_Fig5.png" width="45%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+                      <description>
+                        <p>
+                          Graph of a function, labeled <m>h(x)</m>, plotted on coordinate axes. The curve rises as <m>x</m> increases from the left, 
+                          reaching a smooth peak at <m>(-2,3)</m>, decreases until about <m>x = 0</m> where it reaches a smooth valley before rising to the 
+                          right and off the graph. The curve begins concave down on the left of the graph and switches to concave up around <m>x=-1</m>.
+                        </p>
+                      </description>
                     </image>
-                  </figure>
                 </li>
                 <li>
                   <p>Graph III</p>
-                  <figure xml:id="fig-graph3">
-                    <caption>Graph III</caption>
-                    <image source="Graphics/MATH142_HOGU_Session7_Fig8.png" width="45%">
-                      <description>Graph III — candidate graph for h(x).</description>
+                    <image source="MATH142_HOGU_Session7_Fig8.png" width="45%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+                      <description>
+                        <p>
+                          Graph of a function, labeled <m>h(x)</m>, plotted on coordinate axes.
+                          The curve rises as <m>x</m> increases from the left, 
+                          reaching a sharp peak at <m>(-2,3)</m>, which can be recognized as a cusp. The graph then decreases to the 
+                          right and off the graph. The curve is concave down throughout, except at its cusp.
+                        </p>
+                      </description>
                     </image>
-                  </figure>
                 </li>
                 <li>
                   <p>Graph IV</p>
-                  <figure xml:id="fig-graph4">
-                    <caption>Graph IV</caption>
-                    <image source="Graphics/MATH142_HOGU_Session7_Fig6.png" width="45%">
-                      <description>Graph IV — candidate graph for h(x).</description>
+                    <image source="MATH142_HOGU_Session7_Fig6.png" width="45%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+                      <description>
+                        <p>
+                          Graph of a function, labeled <m>h(x)</m>, plotted on coordinate axes. The curve rises as <m>x</m> increases from the left, 
+                          reaching a smooth peak at <m>(-2,3)</m>, and then decreases to the 
+                          right and off the graph. The curve is concave down throughout.
+                        </p>
+                      </description>
                     </image>
-                  </figure>
                 </li>
                 <li>
                   <p>Graph V</p>
-                  <figure xml:id="fig-graph5">
-                    <caption>Graph V</caption>
-                    <image source="Graphics/MATH142_HOGU_Session7_Fig7.png" width="45%">
-                      <description>Graph V — candidate graph for h(x).</description>
+                    <image source="MATH142_HOGU_Session7_Fig7.png" width="45%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription>
+                      <description>
+                        <p>
+                          Graph of a function, labeled <m>h(x)</m>, plotted on coordinate axes with a dashed vertical line at <m>x = -2</m>. 
+                          To the left of <m>x = -2</m>, the curve stays above <m>y = 3</m>, rises gradually, then increases very rapidly as it approaches the dashed line. 
+                          To the right of <m>x = -2</m>, the curve starts very high, falls steeply, levels off smoothly near <m>x = -1</m>, and then rises 
+                          steadily and off the graph as <m>x</m> increases. The curve is concave down throughout, except at the horizontal asymptote.
+                        </p>
+                      </description>
                     </image>
-                  </figure>
                 </li>
               </ol>
             </p>
