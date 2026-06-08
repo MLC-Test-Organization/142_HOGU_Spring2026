@@ -275,12 +275,22 @@
                     </p>
                   </li>
                 </ul>
+              </p>
+            </statement>
+        </theorem>
                 The first derivative sign chart for <m>\D f(x)=3x^{4}-8x^{3}+6x^{2}</m> (#6 above) is given below. 
                 Use this chart and the above theorem to find the <m>x-</m>values of all local extrema for <m>f(x)</m>.
                                   
                 <image width="100%">
-                  <shortdescription>this is a short description</shortdescription>
-                  <description><p>A table of the RNA codons.</p></description>
+                  <shortdescription>First derivative sign chart for a function. See image description for more details. </shortdescription>
+                  <description>
+                    <p>
+                      Sign chart for the derivative <m>f'(x)</m> with closed circles at <m>x=0</m> and <m>x=1</m>. 
+                      The top row shows <m>f′(x)</m> is negative for <m>x</m> less than <m>0</m> and positive for <m>x</m>
+                       greater than <m>0</m> and greater than <m>x = 1</m>.
+                      The row below shows <m>f(x)</m> decreasing before <m>x = 0</m> and increasing after <m>x = 0</m> and after <m>x = 1</m>.
+                    </p>
+                  </description>
                   <latex-image label="scaling-tikz">
                   \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
                   %uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
@@ -329,10 +339,6 @@
                 </image>
               </p>
             </statement>
-          </theorem>
-            
-        </p>
-      </statement>
     </exercise>  
 
     <exercise number="8"><!-- #8 -->
