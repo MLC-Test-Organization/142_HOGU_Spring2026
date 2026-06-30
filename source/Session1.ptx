@@ -33,7 +33,7 @@
     <exercise workspace="0.75in"><!-- #1 --><!-- controlling workspace length is the best way to force page breaks on a worksheet -->
       <statement>
         <p>
-          Explain the meaning of of <m>\D\lim_{x \to 3} f(x) = -2</m>. <!--see 4.9 in Guide for displaying mathematics-->
+          Explain the meaning of <m>\D\lim_{x \to 3} f(x) = -2</m>. <!--see 4.9 in Guide for displaying mathematics-->
         </p>
       </statement>
     </exercise>
